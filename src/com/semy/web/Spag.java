@@ -28,7 +28,6 @@ public class Spag extends HttpServlet{
 			result = "짝수";
 		
 	
-		
 		request.setAttribute("result", result);
 		String[] names = {"semy","song"};
 		request.setAttribute("names",names);
